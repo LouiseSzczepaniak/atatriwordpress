@@ -1,0 +1,32 @@
+////
+/// Fonts
+///
+/// @group Settings
+///
+////
+@font-face {
+  font-family: SFUIDisplay;
+  src: url('../fonts/sfui-medium.woff') format("woff");
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: SFUIDisplay2;
+  src: url('../fonts/sfui-light.woff') format("woff");
+  font-style: normal;
+  font-stretch: normal;
+}
+
+/// Font fomily
+$arial: Arial, sans-serif;
+$font: $arial;
+$SFUI: "SFUIDisplay";
+$SFUI-L: "SFUIDisplay2";
+
+/// Fonts weight
+/// They must reflect avalaible weights
+$fw-light: 300;
+$fw-regular: 400;
+$fw-semibold: 500;
+$fw-bold: 700;

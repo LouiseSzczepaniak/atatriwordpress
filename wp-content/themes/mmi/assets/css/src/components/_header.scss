@@ -1,0 +1,62 @@
+.logo {
+    background-image: url('../img/kbcrawl-logo.svg');
+    width: 10vw;
+    height: 7vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header {
+    width: 80vw;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3vh;
+    color: $black-2;
+    font-family: $SFUI;
+}
+
+.nav-main {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.list-inline {
+    display: flex;
+    align-items: center;
+}
+.nav-link {
+    color: $black-2;
+    //font-family: $SFUI;
+    font-size: 1.6rem; 
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+}
+
+.rectangle {
+    width: 19.5rem;
+    height: 4.3rem;
+    border-radius: 2.4rem;
+    background-color: $seafoam-blue;
+    position: relative;
+    right: 0;
+    //font-family: $SFUI;
+    color: white;
+    text-align: center;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rectangle:hover {
+    cursor: pointer;
+}
